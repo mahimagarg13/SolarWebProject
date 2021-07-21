@@ -55,7 +55,7 @@ function Details() {
                     {/* <p className="pa text-center"> Contact Us For Any Queries</p> */}
                     <div className="text-center">
 
-                        <p><h5 > <PhoneRoundedIcon /> Phone</h5><a href="" className="m-left " />+91-216548852</p>
+                        <p><h5 > <PhoneRoundedIcon style={{ color: [500] }}/> Phone</h5><a href="" className="m-left " />+91-216548852</p>
 
                         <p> <h5>< MailOutlineRoundedIcon />  Mail</h5>
                             <a href="" className="m-left" />abcd@domain.com</p>

@@ -21,18 +21,21 @@ function Footer(){
 </div>
 <div className="twobox mt cl">
 <h5 className="h5">Quick Links</h5>
-<NavLink to="" className="c">Top</NavLink><br />
-<a href="" className="c">About Us</a><br />
-<a href="" className="c">Services</a><br />
-<a href="" className="c">Product</a><br />
-<a href="" className="c">Contact Us</a><br />
+<div className="c">
+
+{/* <NavLink to="/">Top</NavLink><br /> */}
+<a href="/about">About Us</a><br />
+<a href="services">Services</a><br />
+<a href="/product">Product</a><br />
+<a href="/contact">Contact Us</a><br />
 </div>
-<div className="thirdbox mt cl">
+</div>
+<div className="focon">
 <h5 className="h5">Contact Us</h5>
 
-<PhoneRoundedIcon /><a href="" className="ca" style={{marginLeft:22}}>+91-9845654564</a><br />
+<PhoneRoundedIcon /><a href="" className="ca" style={{marginLeft:22}}>+0731-4935558,<br />     95162 47583</a><br />
 
-< MailOutlineRoundedIcon /> <a href="" className="ca" style={{marginLeft:15}}>abc@domain.com</a><br />
+< MailOutlineRoundedIcon /> <a href="" className="ca" style={{marginLeft:15}}>abhi85558@yahoo.co.in</a><br />
 <LocationOnRoundedIcon/><a href="" className="ca" style={{marginLeft:10}}>H.No.-23,Apartment,Kolar Road,bhopal(Madhya Pradesh)424987</a><br />
 </div>
 <div className="forthbox mt">

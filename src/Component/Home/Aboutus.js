@@ -11,7 +11,7 @@ function Aboutus() {
                 </div>
                 <div className="flex-right">
                     <img className="head" src="/image/about.gif" />
-                    <p className="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                    <p className="p">Nyasa Energy System is  amongest the pioneer company in providing Quality Solar products, Solar EPC Services, Project Development, Rooftop Solutions, Solar Water Pumps, Solar Water Heater, Water Purifier, Water Softner + Conditioning System, Water Cooler, Inverterand Batteries. Products from Nyasa Energy System combine the best of technology and expertise to provide a wide range of products that give utmost purity and supreme quality</p>
                     <a href="" className="ml btn a btn-outline-primary">Read More</a>
                 </div>
             </div>

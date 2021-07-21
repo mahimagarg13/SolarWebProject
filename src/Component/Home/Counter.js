@@ -18,7 +18,7 @@ function Counter() {
                 </div>
                 <div className="col  m-b-t  color-white text-center">
                     <h6> Total Employees</h6>   <br />
-                    <h2>    <CountUp end={1000} duration={4} /> +</h2>
+                    <h2>      <CountUp end={1000} duration={4} /> +</h2>
                 </div>
                 <div className="col  m-b-t  color-white  text-center">
                     <h6>Happy Clients</h6><br />

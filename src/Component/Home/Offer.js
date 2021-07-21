@@ -14,28 +14,28 @@ function Offer() {
                     <div className="col  ">
                         <div className="card w m-b">
                             <div className="card-body">
-                                <img className="h-w" src="/image/tech_large.png" />
-                                <h6 className="color">  Technical Services</h6>
-                                <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <img className="h-w" src="/image/rooftop.png" />
+                                <h6 className="color"> SOLAR ROOFTOP</h6>
+                                {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
 
                             </div></div>
                     </div>
                     <div className="col">
                         <div className="card w m-b ">
                             <div className="card-body">
-                                <img className="h-w" src="/image/ener.jfif" />
+                                <img className="h-w" src="/image/light.png" />
                                 <h6 className="color">
-                                    Energy Panels</h6>
-                                <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                SOLAR STREET LIGHT</h6>
+                                {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
 
                             </div> </div>   </div>
                     <div className="col">
                         <div className="card w m-b">
 
                             <div className="card-body ">
-                                <img className="h-w" src="/image/w.png" />
-                                <h6 className="color">Wind Generators</h6>
-                                <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <img className="h-w" src="/image/hybrid.png" />
+                                <h6 className="color">SOLAR HYBRID SYSTEM</h6>
+                                {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
 
                             </div></div>
                     </div>
@@ -46,18 +46,18 @@ function Offer() {
                     <div className="col">
                         <div className="card w m-b">
                             <div className="card-body ">
-                                <img className="h-w" src="/image/ser.png" />
-                                <h6 className="color">   Solar As a Services</h6>
-                                <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <img className="h-w" src="/image/heater.png" />
+                                <h6 className="color">  SOLAR WATER HEATER</h6>
+                                {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
 
                             </div></div>
                     </div>
                     <div className="col">
                         <div className="card w m-b">
                             <div className="card-body ">
-                                <img className="h-w" src="/image/pv.png" />
-                                <h6 className="color">Solar PV Systems</h6>
-                                <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting . </p>
+                                <img className="h-w" src="/image/purifier.png" />
+                                <h6 className="color">WATER PURIFIER</h6>
+                                {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting . </p> */}
                             </div>
                         </div>
                     </div>
@@ -65,9 +65,9 @@ function Offer() {
                     <div className="col">
                         <div className="card  w m-b">
                             <div className="card-body ">
-                                <img className="h-w" src="/image/solaricon.png" />
-                                <h6 className="color">   Solar Panel Services</h6>
-                                <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                {/* <img className="h-w" src="/image/solaricon.png" /> */}
+                                <h6 className="color">  WATER SOFTNER +CONDITIONING SYSTEM</h6>
+                                {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
 
                             </div>
                         </div>

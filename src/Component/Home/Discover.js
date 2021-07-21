@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Discover() {
     return (<div className="">
-           <h2 className="text-center discover heading ">Discover The Advantages</h2>
+           <p className="text-center discover heading ">Discover The Advantages</p>
            <p className="p1">Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor.</p>
 
         <div className="container">

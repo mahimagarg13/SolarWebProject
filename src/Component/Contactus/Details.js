@@ -9,6 +9,8 @@ import PhoneRoundedIcon from '@material-ui/icons/PhoneRounded';
 import MailOutlineRoundedIcon from '@material-ui/icons/MailOutlineRounded';
 import LocationOnRoundedIcon from '@material-ui/icons/LocationOnRounded';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import { blue, deepOrange, green, lightGreen } from "@material-ui/core/colors";
+import { Reddit } from "@material-ui/icons";
 // import { Details } from "@material-ui/icons";
 
 function Details() {
@@ -55,14 +57,14 @@ function Details() {
                     {/* <p className="pa text-center"> Contact Us For Any Queries</p> */}
                     <div className="text-center">
 
-                        <p><h5 > <PhoneRoundedIcon style={{ color: [500] }}/> Phone</h5><a href="" className="m-left " />+91-216548852</p>
+                        <p><h5 > <PhoneRoundedIcon style={{ color: blue [500] }}/> Phone</h5><a href="" className="m-left " />+91-9516247583</p>
 
-                        <p> <h5>< MailOutlineRoundedIcon />  Mail</h5>
-                            <a href="" className="m-left" />abcd@domain.com</p>
-                        <p><h5><LocationOnRoundedIcon/> Address</h5><a href="" className="m-left" />EMS House, 9, Ram Gopal Maheshwari Marg, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011</p>
-                       <p> <a href="" className="icon i">< FacebookIcon /></a>
-                        <a href="" className="icon">< WhatsAppIcon /></a>
-                        <a href="" className="icon">< YouTubeIcon /></a></p>
+                        <p> <h5>< MailOutlineRoundedIcon style={{ color: [900] }}/>  Mail</h5>
+                            <a href="" className="m-left" />abhi85558@yahoo.co.in</p>
+                        <p><h5><LocationOnRoundedIcon style={{ color:  [900] }}/> Address</h5><a href="" className="m-left" />130, Mangal Murthi Nagar Scheme No 77 Behind Mayur Hospital Ring Road, Indore 452018 Madhya Pradesh</p>
+                       <p> <a href="" className="icon i">< FacebookIcon style={{ color: blue[500] }}/></a>
+                        <a href="" className="icon">< WhatsAppIcon style={{ color: lightGreen [500] }} /></a>
+                        <a href="" className="icon">< YouTubeIcon style={{ color: [900] }}/></a></p>
                     </div>
                     
                 </div>

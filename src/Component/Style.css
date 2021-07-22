@@ -94,7 +94,7 @@ height: 500px;
 }
 .icon{
     color:whitesmoke;
-    margin: 10px;
+    margin: 4px;
 }
 .icon:hover{
     color:rgb(21, 130, 255);
@@ -107,10 +107,10 @@ height: 500px;
     margin-left: 20px;
 }
 .h5{margin-top: 20px;
-    color: white;
-    text-align: initial;
+    color:orange;
+    /* text-align: initial;
     text-align: center;
-    text-align: inherit;
+    text-align: inherit; */
 
 
 
@@ -148,7 +148,7 @@ margin-right: 10px;
 }
 .c a{
     text-decoration: none;
-    color: white;
+    color:whitesmoke;
 }
 .ca{
     color: white;
@@ -183,8 +183,7 @@ margin-right: 10px;
     width: 50%;
 }
 .mt{
-    margin-top: 20px;
-    text-align: center;
+    margin-top: 30px;
 }
 .m-left{
     margin-left: 10px;
@@ -376,6 +375,9 @@ margin-left: 25%;
 .clrd{
     color:green;
 }
+.fnt-s{
+    font-size: 1rem;
+}
 /* .color{
     color: white;
 } */
@@ -383,6 +385,9 @@ margin-left: 25%;
 
 @media screen and (max-width:768px)
 {
+    .ft{
+        width: 50%;
+    }
     .content{
         width: 50%;
     }
@@ -464,40 +469,55 @@ width: 50%;
     height: 40px;
 }
 .onebox{color: white;
-    width: 25%;
+    width: 30%;
     font-size: 0.8rem;
 }
 
 .thirdbox{
-    width: 35%;
+    width: 35.1%;
     font-size: 0.8rem;
     margin-left: 30px;
 
 }
 .twobox{
-    width: 15%;
+    width: 12%;
     font-size: 0.8rem;
 margin-left: 30px;
 }
 .forthbox{
-    width: 15%;
+    width: 14%;
 }
 .h5{
     font-size: 1rem;
 }
 .icon{
     color:whitesmoke;
-    margin: 5px;
+    margin: 3px;
     
+}
+.fnt-s{margin-top: 5px;
+    font-size: 0.8rem;
 }
 
 .nl-text{
     font-size: 1.5rem;
 }
+.c{
+    font-size: 0.8rem;
+}
+.ca{
+    font-size: 0.8rem;
+}
 }
 
 @media screen and (max-width:426px)
 {
+    .fnt-s{
+        font-size: 0.9rem;
+    }
+    .c{
+        text-align: center;
+    }
     .content{margin-top: 20px;
         width: 100%;
     }
@@ -663,6 +683,9 @@ margin-bottom: 10%;
 .m-l{margin-top: 5px;
     margin-left: 2%;
 }
+.ft{
+    width: 27%;
+}
 }
 @media screen and (max-width:376px)
 {
@@ -696,6 +719,9 @@ margin-bottom: 10%;
         margin-bottom: 50px;
         height: 420px;
     }
+    .ft{
+        width: 26%;
+    }
 }
 
 
@@ -708,6 +734,9 @@ margin-bottom: 10%;
     .image{margin-left: 0%;
         margin-top: 0;
         margin-bottom: 10px;
+    }
+    .ft{
+        width: 30%;
     }
   .resp{
       width: 100%;
@@ -768,7 +797,11 @@ margin-bottom: 10%;
 
     }
     .form{
-        height: 37px;    }
+        height: 37px;  
+      }
+        .c{
+            text-align: center;
+        }
 }
 
 
@@ -776,10 +809,4 @@ margin-bottom: 10%;
     height: 500px;
 
 }
-.fnt-s{
-    font-size: 1rem;
-}
-.focon{
-    font-size: 1rem;
 
-}

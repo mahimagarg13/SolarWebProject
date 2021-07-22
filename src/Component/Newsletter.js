@@ -13,10 +13,14 @@ function Newsletter() {
                         <button className="btn  btn-outline-success" type="button" id="button-addon2">Subscribe Us</button>
                     </div>
                 </div>
+    
+
             </div>
+        
+           
+
         </div>
-
-
+        
 
 
     );

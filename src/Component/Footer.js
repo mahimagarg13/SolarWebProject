@@ -6,7 +6,23 @@ import PhoneRoundedIcon from '@material-ui/icons/PhoneRounded';
 import MailOutlineRoundedIcon from '@material-ui/icons/MailOutlineRounded';
 import LocationOnRoundedIcon from '@material-ui/icons/LocationOnRounded';
 import { NavLink } from 'react-router-dom';
+import { blue, deepOrange, green, orange } from '@material-ui/core/colors';
+const ColoredLine = ({ color }) => (
+  <hr
+      style={{
+          color: color,
+          backgroundColor: color,
+          height: 1,
+          width:50,
+          margin:0
+      }}
+  />
 
+
+
+
+
+);
 function Footer(){
     return(
         <div className="nl">
@@ -21,30 +37,46 @@ function Footer(){
 </div>
 <div className="twobox mt cl">
 <h5 className="h5">Quick Links</h5>
+<ColoredLine color="gray" />
 <div className="c">
 
 {/* <NavLink to="/">Top</NavLink><br /> */}
 <a href="/about">About Us</a><br />
-<a href="services">Services</a><br />
 <a href="/product">Product</a><br />
+<a href="services">Services</a><br />
+<a href="Portfolio">Portfolio</a><br />
 <a href="/contact">Contact Us</a><br />
 </div>
 </div>
-<div className="focon">
+<div className="thirdbox mt cl">
 <h5 className="h5">Contact Us</h5>
+<ColoredLine color="gray" />
+<div className="c">
+<PhoneRoundedIcon  style={{ color: orange[500] }} /><a href="" className="ca" style={{marginLeft:15}}>+91-9516247583</a><br />
 
-<PhoneRoundedIcon /><a href="" className="ca" style={{marginLeft:22}}>+0731-4935558,<br />     95162 47583</a><br />
+< MailOutlineRoundedIcon style={{ color: orange[500] }}/> <a href="" className="ca" style={{marginLeft:15}}>abhi85558@yahoo.co.in</a><br />
+<LocationOnRoundedIcon style={{ color: orange[500] }}/><a href="" className="ca" style={{marginLeft:15}}>130, Mangal Murthi Nagar
 
-< MailOutlineRoundedIcon /> <a href="" className="ca" style={{marginLeft:15}}>abhi85558@yahoo.co.in</a><br />
-<LocationOnRoundedIcon/><a href="" className="ca" style={{marginLeft:10}}>H.No.-23,Apartment,Kolar Road,bhopal(Madhya Pradesh)424987</a><br />
-</div>
+Scheme No 77
+
+Behind Mayur Hospital
+
+Ring Road, Indore
+
+452018 Madhya Pradesh</a><br />
+</div></div>
 <div className="forthbox mt">
-  <h5 className="h5 text-center">Follow Us</h5>
-  <a href="" className="icon i">< FacebookIcon /></a>
-  <a href=""  className="icon">< WhatsAppIcon/></a>
-  <a href=""  className="icon">< YouTubeIcon/></a>
+  <h5 className="h5">Follow Us</h5>
+  <ColoredLine color="gray" />
+{/* <img src="image/fb.png"/>
+<img src="image/wtsp.png"/> */}
+<div className="c">
+  <a href="" className="icon ">< FacebookIcon style={{ color: blue[500] }}/></a>
+  <a href=""  className="icon">< WhatsAppIcon style={{ color: green[500] }}/></a>
+  <a href=""  className="icon">< YouTubeIcon style={{ color: deepOrange[500] }}/></a>
+</div></div>
 </div>
-</div>
+
 <div className="text-center copyright">Copyright © 2021</div>
 </div>
   

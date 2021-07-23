@@ -9,7 +9,7 @@ function About() {
         <>
             <Aboutus />
             <Action />
-            <OurTeam /> 
+            <OurTeam />
             <Choose />
 
         </>

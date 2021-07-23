@@ -10,35 +10,35 @@ function Advantage() {
 
           <div className="card m-b">
             <div className="card-body">
-              <img className="h-w" src="/image/solaricon.png" />
+              <img className="h-w2" src="/image/solaricon.png" />
               <h6 className="clrd">   Solar Panel Services</h6>
               <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
             </div></div>
           <div className="card m-b">
             <div className="card-body">
-              <img className="h-w" src="/image/wind.png" />
+              <img className="h-w2" src="/image/wind.png" />
               <h6 className="clrd">Best Wind Energy</h6>
               <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
 
             </div></div>
           <div className="card m-b">
             <div className="card-body">
-              <img className="h-w" src="/image/garan.png" />
+              <img className="h-w2" src="/image/garan.png" />
               <h6 className="clrd">Extended Gaurantee</h6>
               <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
 
             </div></div>
           <div className="card m-b">
             <div className="card-body">
-              <img className="h-w" src="/image/solaricon.png" />
+              <img className="h-w2" src="/image/solaricon.png" />
               <h6 className="clrd">   Solar Panel Services</h6>
               <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
             </div></div>
           <div className="card m-b">
             <div className="card-body">
-              <img className="h-w" src="/image/wind.png" />
+              <img className="h-w2" src="/image/wind.png" />
               <h6 className="clrd">Best Wind Energy</h6>
               <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
 

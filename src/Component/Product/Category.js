@@ -2,12 +2,12 @@ import { green } from '@material-ui/core/colors';
 
 import Button from '@material-ui/core/Button';
 
-function Products() {
+function Category() {
     return (
         <div className="product-main">
             <p className="heading">What Are You Looking For?</p>
             <div className="product-container">
-                <div className="">
+                
                     <div className="container">
                         <div className="row">
                             <div className="col  ">
@@ -16,9 +16,11 @@ function Products() {
                                         <img className="h-w" src="/image/rooftop.png" />
                                         <h6 className="color"> SOLAR ROOFTOP</h6>
                                         {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
-                                        <Button variant="outlined" color="primary" >
+                                        {/* <Button variant="outlined" color="primary" >
                                             View Products
-                                        </Button>
+                                        </Button> */}
+                                        <a href="/typesproduct" type="button" class="btn btn-outline-success">View Products</a >
+
                                     </div></div>
                             </div>
                             <div className="col">
@@ -28,9 +30,11 @@ function Products() {
                                         <h6 className="color">
                                             SOLAR STREET LIGHT</h6>
                                         {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
-                                        <Button variant="outlined" color="primary">
+                                        {/* <Button variant="outlined" color="primary">
                                             View Products
-                                        </Button>
+                                        </Button> */}
+                                        <a href="" type="button" class="btn btn-outline-success">View Products</a >
+
                                     </div> </div>   </div>
                             <div className="col">
                                 <div className="card w m-b">
@@ -39,9 +43,11 @@ function Products() {
                                         <img className="h-w" src="/image/hybrid.png" />
                                         <h6 className="color">SOLAR HYBRID SYSTEM</h6>
                                         {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
-                                        <Button variant="outlined" color="primary">
+                                        {/* <Button variant="outlined" color="primary">
                                             View Products
-                                        </Button>
+                                        </Button> */}
+                                        <a href="" type="button" class="btn btn-outline-success">View Products</a >
+
                                     </div></div>
                             </div>
                             <div className="col">
@@ -50,9 +56,11 @@ function Products() {
                                         <img className="h-w" src="/image/wtrcooler.png" />
                                         <h6 className="color">WATER COOLER</h6>
                                         {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
-                                        <Button variant="outlined" color="primary">
+                                        {/* <Button variant="outlined" color="primary">
                                             View Products
-                                        </Button>
+                                        </Button> */}
+                                        <a href="" type="button" class="btn btn-outline-success">View Products</a >
+
                                     </div>
                                 </div>
                             </div>
@@ -66,9 +74,11 @@ function Products() {
                                         <img className="h-w" src="/image/heater.png" />
                                         <h6 className="color">  SOLAR WATER HEATER</h6>
                                         {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
-                                        <Button variant="outlined" color="primary">
+                                        {/* <Button variant="outlined" color="primary">
                                             View Products
-                                        </Button>
+                                        </Button> */}
+                                        <a href="" type="button" class="btn btn-outline-success">View Products</a >
+
                                     </div>
                                 </div>
                             </div>
@@ -78,9 +88,11 @@ function Products() {
                                         <img className="h-w" src="/image/purifier.png" />
                                         <h6 className="color">WATER PURIFIER</h6>
                                         {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting . </p> */}
-                                        <Button variant="outlined" color="primary">
+                                        {/* <Button variant="outlined" color="primary">
                                             View Products
-                                        </Button>
+                                        </Button> */}
+                                        <a href="" type="button" class="btn btn-outline-success">View Products</a >
+
                                     </div>
                                 </div>
                             </div>
@@ -91,9 +103,11 @@ function Products() {
                                         <img className="h-w" src="/image/soft.png" />
                                         <h6 className="color">  WATER SOFTNER SYSTEM</h6>
                                         {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
-                                        <Button variant="outlined" color="primary">
+                                        {/* <Button variant="outlined" color="primary">
                                             View Products
-                                        </Button>
+                                        </Button> */}
+                                        <a href="" type="button" class="btn btn-outline-success">View Products</a >
+
                                     </div>
                                 </div>
                             </div>
@@ -103,9 +117,25 @@ function Products() {
                                         <img className="h-w" src="/image/pump.png" />
                                         <h6 className="color">  PRESSURE PUMP</h6>
                                         {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
-                                        <Button variant="outlined" color="primary">
+                                        {/* <Button variant="outlined" color="primary">
                                             View Products
-                                        </Button>
+                                        </Button> */}
+                                        <a href="" type="button" class="btn btn-outline-success">View Products</a >
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col">
+                                <div className="card  w m-b">
+                                    <div className="card-body custom-width">
+                                        <img className="h-w" src="/image/pump.png" />
+                                        <h6 className="color">  HEAT PUMP</h6>
+                                        {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
+                                        {/* <Button variant="outlined" color="primary">
+                                            View Products
+                                        </Button> */}
+                                        <a href="" type="button" class="btn btn-outline-success">View Products</a >
+
                                     </div>
                                 </div>
                             </div>
@@ -113,8 +143,8 @@ function Products() {
                     </div>
                 </div>
             </div>
-        </div>
+        
 
     );
 }
-export default Products;
+export default Category;

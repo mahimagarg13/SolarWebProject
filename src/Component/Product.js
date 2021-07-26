@@ -1,6 +1,6 @@
 import './Style.css';
 import React from 'react';
-import Products from './Product/Products';
+import Products from './Product/Category';
 
 function Product() {
     return (

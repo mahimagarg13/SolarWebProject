@@ -30,7 +30,7 @@ function Discover() {
                             <h6 className="clrd">Extended Gaurantee</h6>
                             <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
 
-                        </div></div><a href="" className="btn  btn-lg btn-block btn-outline-success">View All</a>
+                        </div></div><a href="/about" className="btn  btn-lg btn-block btn-outline-success">View All</a>
 
 
                 </div>

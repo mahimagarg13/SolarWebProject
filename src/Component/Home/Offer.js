@@ -12,7 +12,7 @@ function Offer() {
             <div className="container">
                 <div className="row">
                     <div className="col  ">
-                        <div className="card w m-b">
+                        <div className="card card-div w m-b">
                             <div className="card-body custom-width">
                                 <img className="h-w" src="/image/rooftop.png" />
                                 <h6 className="color"> SOLAR ROOFTOP</h6>
@@ -21,7 +21,7 @@ function Offer() {
                             </div></div>
                     </div>
                     <div className="col">
-                        <div className="card w m-b ">
+                        <div className="card card-div w m-b ">
                             <div className="card-body custom-width">
                                 <img className="h-w" src="/image/light.png" />
                                 <h6 className="color">
@@ -30,7 +30,7 @@ function Offer() {
 
                             </div> </div>   </div>
                     <div className="col">
-                        <div className="card w m-b">
+                        <div className="card card-div w m-b">
 
                             <div className="card-body custom-width">
                                 <img className="h-w" src="/image/hybrid.png" />
@@ -40,7 +40,7 @@ function Offer() {
                             </div></div>
                     </div>
                     <div className="col">
-                        <div className="card  w m-b">
+                        <div className="card  card-div w m-b">
                             <div className="card-body custom-width">
                                 <img className="h-w" src="/image/wtrcooler.png" />
                                 <h6 className="color">WATER COOLER</h6>
@@ -54,7 +54,7 @@ function Offer() {
             <div className="container m-top">
                 < div className="row"> */}
                     <div className="col">
-                        <div className="card w m-b">
+                        <div className="card card-div w m-b">
                             <div className="card-body custom-width ">
                                 <img className="h-w" src="/image/heater.png" />
                                 <h6 className="color">  SOLAR WATER HEATER</h6>
@@ -63,7 +63,7 @@ function Offer() {
                             </div></div>
                     </div>
                     <div className="col">
-                        <div className="card w m-b">
+                        <div className="card card-div w m-b">
                             <div className="card-body custom-width">
                                 <img className="h-w" src="/image/purifier.png" />
                                 <h6 className="color">WATER PURIFIER</h6>
@@ -73,7 +73,7 @@ function Offer() {
                     </div>
 
                     <div className="col">
-                        <div className="card  w m-b">
+                        <div className="card card-div w m-b">
                             <div className="card-body custom-width">
                                 <img className="h-w" src="/image/soft.png" />
                                 <h6 className="color">  WATER SOFTNER SYSTEM</h6>
@@ -83,10 +83,21 @@ function Offer() {
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card  w m-b">
+                        <div className="card card-div w m-b">
                             <div className="card-body custom-width">
                                 <img className="h-w" src="/image/pump.png" />
                                 <h6 className="color">PRESSURE PUMP</h6>
+                                {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
+
+                            </div>
+                        </div>
+                    </div>
+                
+                <div className="col">
+                        <div className="card card-div w m-b">
+                            <div className="card-body custom-width">
+                                <img className="h-w" src="/image/pump.png" />
+                                <h6 className="color">HEAT PUMP</h6>
                                 {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
 
                             </div>

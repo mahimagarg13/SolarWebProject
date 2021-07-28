@@ -7,6 +7,17 @@
     /* font-family: 'Mulish', sans-serif; */
 
 }
+.form-check{
+    margin-left: 17px;
+    margin-right: 10px;
+
+    text-align: start;
+}
+
+.card-w{
+    width: 300px;
+    margin:10px;
+}
 .gallery{
  display: flex;
 flex-wrap: wrap;
@@ -17,6 +28,7 @@ justify-content: center;
     
     -moz-column-count: 3;
     
+    column-count: 3;
     column-count: 3;
     
     -webkit-column-width: 40%;
@@ -37,9 +49,15 @@ justify-content: center;
 .pics{
     margin:0px 10px 0px 10px ;
 }
-/* .product-container{
-width: 900px;
-} */
+.product-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+ }
+ .col{
+     display: flex;
+     justify-content: center;
+ }
 .resp{
     width: 120%;
     height: 100%;
@@ -127,7 +145,8 @@ width: 900px;
     font-size: 1.1rem;
 }
 .choose{background-color:white;
-height: 550px;
+/* height: 550px; */
+margin-bottom: 20px;
 }
 .icon{
     color:whitesmoke;
@@ -192,7 +211,7 @@ margin-right: 10px;
     text-decoration: none;
 }
 .w{
-    width: 100%;
+    width: 290px;
 }
 .thirdbox{
     width: 32%;
@@ -310,7 +329,7 @@ width: 100px!important;
 .discover{
     margin-bottom: 5%;
 }
-.card{  border-radius: 4px;
+.card-div{  border-radius: 4px;
     background:rgb(252, 187, 66);
     color: white;
     box-shadow: 0 6px 10px rgba(0,0,0,.18), 0 0 6px rgba(0,0,0,.15);
@@ -323,7 +342,7 @@ width: 100px!important;
 font-size: 00.8rem;
 }
 .custom-width{
-    width:250px;
+    width:290px;
     display:flex;
     justify-content:center;
     align-items: center;
@@ -344,7 +363,7 @@ font-size: 00.8rem;
      /* float: left;  */
     margin-right: 2%;
 }
- .card:hover{
+ .card-div:hover{
     /* background-color:white; */
     transform: scale(1.02);
     color: orange!important;
@@ -445,7 +464,7 @@ margin-left: 25%;
     margin-right: 2%;
 }
 .custom-width{
-    width:328px;
+    width:290px;
     display:flex;
     justify-content:center;
     align-items: center;
@@ -488,10 +507,10 @@ margin-left: 25%;
         text-align: left;
         width: 263px;
     }
-.container{
+/* .container{
 
-/* flex-wrap: wrap; */
-}
+flex-wrap: wrap;
+} */
 .flex-left{
     width: 50%;
 }
@@ -503,8 +522,9 @@ margin-left: 25%;
     height: 90%;
     margin-top: 30%;
 }
-.choose{
-    height: 750px;    }
+/* .choose{
+    height: 750px;  
+  } */
     .color{
         font-size: 1rem;
     }
@@ -634,7 +654,7 @@ margin-left: 30px;
     }
     
     .choose{
-        height: 1290px;  
+        /* height: 1290px;   */
       }
       .ps{color: gray;
         margin-top: 20px;
@@ -881,7 +901,7 @@ display: flex;
         height: 420px;
     }
     .choose{
-        height: 1590px;
+        /* height: 1590px; */
     }
     .width{
         width: 100px;

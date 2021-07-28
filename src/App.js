@@ -14,8 +14,17 @@ import Product from './Component/Product';
 import Contact from './Component/Contact';
 import About from './Component/About';
 import Footer from './Component/Footer';
+import Watercooler from './Component/Product/Watercooler';
+import Rooftop from './Component/Product/Rooftop';
 // import Newsletter from './Component/Newsletter';
 import  { Switch , Route , BrowserRouter } from "react-router-dom";
+import Streetlight from './Component/Product/Streetlight';
+import WaterHeater from './Component/Product/WaterHeater';
+import Hybridsystem from './Component/Product/Hybridsystem';
+import WaterPurifier from './Component/Product/WaterPurifier';
+import Softnersystem from './Component/Product/Softnersystem';
+// import Pressurepump from './Component/Product/Pressurepump';
+// import Pressurepump from './Component/Product/Pressurepump';
 
 function App() {
   return (<>
@@ -28,6 +37,14 @@ function App() {
       <Route exact path= "/portfolio" component={Portfolio} />
       <Route exact path= "/about" component={About} />
       <Route exact path= "/contact" component={Contact} />
+      <Route exact path= "/watercooler" component={Watercooler} />
+      <Route exact path= "/rooftop" component={Rooftop} />
+      <Route exact path= "/streetlight" component={Streetlight} />
+      <Route exact path= "/hybridsystem" component={Hybridsystem} />
+      <Route exact path= "/waterHeater" component={WaterHeater} />
+      <Route exact path= "/waterpurifier" component={WaterPurifier} />
+      <Route exact path= "/softnersystem" component={Softnersystem} />
+      {/* <Route exact path= "/pressurepump" component={Pressurepump} /> */}
 
       </Switch>
       {/* <Newsletter /> */}

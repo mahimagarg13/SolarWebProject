@@ -1,136 +1,112 @@
-import React from "react";
-import Img1 from '../Img/img1.jpeg'
-import Img2 from '../Img/img2.jpeg'
-import Img3 from '../Img/img3.jpeg'
-import Img4 from '../Img/img4.jpeg'
-import Img5 from '../Img/img5.jpeg'
-import Img6 from '../Img/img6.jpeg'
-import Img7 from '../Img/img7.jpeg'
-import Img8 from '../Img/img8.jpeg'
-import Img9 from '../Img/img9.jpeg'
-import Img10 from '../Img/img10.jpeg'
-import Img11 from '../Img/img11.jpeg'
-import Img12 from '../Img/img12.jpeg'
-import Img13 from '../Img/img13.jpeg'
-import Img14 from '../Img/img14.jpeg'
-import { SettingsSystemDaydreamSharp } from "@material-ui/icons";
+import React, { useEffect, useState } from "react";
+
+// import { SettingsSystemDaydreamSharp } from "@material-ui/icons";
 // import './gallery.css'
 
-const Gallery =() =>{
-    // const  filerItem = (categItem) => {
-    //     const updatedItems = filter((curElem) =>{
-    //         return curElem.category == categItem;
-    //     });
-    //     setItems(updatedItems);
-    // }
+// const Gallery =() =>{
+// const  filerItem = (categItem) => {
+//     const updatedItems = filter((curElem) =>{
+//         return curElem.category == categItem;
+//     });
+//     setItems(updatedItems);
+// }
 
-    let data =[
-        {
-            id:1,
-            imgSrc:Img1,
-            category:"one",
-        },
-        {
-            id:2,
-            imgSrc:Img2,
-            category:"three",
+const Img = [
+    {
+        id: 1,
+        imageName: '/img1.jpeg', tag: 'one'
+    },
 
-        },
-        {
-            id:3,
-            imgSrc:Img3,
-            category:"four",
 
-        },
-        {
-            id:4,
-            imgSrc:Img4,
-            category:"one",
+    {
+        id: 2,
+        imageName: 'img2.jpeg', tag: 'two'
 
-        },
-        {
-            id:5,
-            imgSrc:Img5,
-            category:"five",
+    },
+    {
+        id: 3,
+        imageName: 'img3.jpeg', tag: 'three'
 
-        },
-        {
-            id:6,
-            imgSrc:Img6,
-            category:"one",
+    },
+    {
+        id: 4,
+        imageName: 'img4.jpeg', tag: 'four'
+    },
+    {
+        id: 5,
+        imageName: 'img5.jpeg', tag: 'five'
+    },
+    {
+        id: 6,
+        imageName: 'img6.jpeg', tag: 'one'
+    },
+    {
+        id: 7,
+        imageName: 'img7.jpeg', tag: 'two'
 
-        },
-        {
-            id:7,
-            imgSrc:Img7,
-            category:"five",
+    },
+    {
+        id: 8,
+        imageName: 'img8.jpeg', tag: 'three'
+    },
+    {
+        id: 9,
+        imageName: 'img9.jpeg', tag: 'four'
+    },
+    {
+        id: 10,
+        imageName: 'img10.jpeg', tag: 'five'
 
-        },
-        {
-            id:8,
-            imgSrc:Img8,
-            category:"two",
+    },
+    {
+        id: 11,
+        imageName: 'img11.jpeg', tag: 'one'
+    },
+    {
+        id: 12,
+        imageName: 'img12.jpeg', tag: 'two'
 
-        },
-        {
-            id:9,
-            imgSrc:Img9,
-            category:"one",
+    },
+    {
+        id: 13,
+        imageName: 'img13.jpeg', tag: 'four'
+    },
+    {
+        id: 14,
+        imageName: 'img14.jpeg', tag: 'three'
 
-        },
-        {
-            id:10,
-            imgSrc:Img10,
-            category:"three",
-
-        },
-        {
-            id:11,
-            imgSrc:Img11,
-            category:"two",
-
-        },
-        {
-            id:12,
-            imgSrc:Img12,
-            category:"one",
-
-        },
-        {
-            id:13,
-            imgSrc:Img13,
-            category:"four",
-
-        },
-        {
-            id:14,
-            imgSrc:Img14,
-            category:"two",
-
-        }
-    ]
-
+    }
+]
+function Gallery() {
+    const [tag, setTag] = useState('all');
+    const [filteredImg, setFilteredImg] = useState([]);
+    useEffect(() => {
+        tag === 'all' ? setFilteredImg(Img) : setFilteredImg(Img.filter(Image => Image.tag === tag))
+    }, [tag])
     return (
         <div className="portfolio">
-                       <p className="heading">Gallery</p>
-                       <div className="text-center">
-                        <a className="btn m-2 btn-outline-dark">ONE</a>
-                        <a className="btn  btn-outline-dark">TWO</a>
-                        <a className="btn m-2 btn-outline-dark">THREE</a>
-                        <a className="btn btn-outline-dark">FOUR</a>
-                        <a className="btn m-2 btn-outline-dark">FIVE</a>
-</div>
-        <div className="gallery">
-            {data.map((item,index)=>{
-                return(
-                        <div className="pics" key={index}>
-                            <img src={item.imgSrc} />
-                            </div>
-                )
-            })}
-        </div>
-       </div>
-    
+            <p className="heading">Gallery</p>
+            <div className="text-center " handleSetTag="{setTag}">
+                <button className="btn m-2 btn-outline-dark"  name="one" handleSetTag="{setTag}">ONE</button>
+                <button className="btn m-2 btn-outline-dark"  name="two" handleSetTag="{setTag}">TWO</button>
+                <button className="btn m-2 btn-outline-dark"  name="three" handleSetTag="{setTag}">THREE</button>
+                <button className="btn m-2 btn-outline-dark"  name="four" handleSetTag="{setTag}" >FOUR</button>
+                <button className="btn m-2 btn-outline-dark"  name="all" handleSetTag="{setTag}">All</button>
+               
+            </div>
+            <div className="gallery">
+                {filteredImg.map (image =>
+                     <div className="pics" key={image.id}>
+                         <img src={`/Img/${image.imageName}`} alt=""/>
+                           </div>)}</div>
+                </div>
+
+        
+
     );
 }
+const button  = ({ name, handleSetTag }) => {
+     return <button onClick={()=> handleSetTag(name)}>{name.toUpperCase()}</button>;
+
+};
 export default Gallery;

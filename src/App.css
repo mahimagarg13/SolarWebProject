@@ -55,6 +55,7 @@ color:rgb(247, 243, 243);
     }
     .Navbar .rightside #hidden{
       position: absolute;
+      z-index: 100;
       left: 0px;
       top: 80px;
       height: 292px;

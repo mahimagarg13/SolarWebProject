@@ -1,12 +1,12 @@
 
 function Action(params) {
     return(
-<div className="plat">
-    <div className="text-center">
-        <h4>Call To Action</h4>
+<div className="plat d-flext">
+    <div className=" text-center">
     <h1 className="h1plate color-white">Providing Value To Clients Through<br />
 Product & Innovation.</h1>
-{/* <button type="button" class="btn  btn-cl">Contact Us Now</button> */}
+{/* <button type="button" class="btn ">Contact Us Now</button> */}
+<div className=""><button type="button" class="btn btn-dark">Contact Us Now</button></div>
 
 </div>
 

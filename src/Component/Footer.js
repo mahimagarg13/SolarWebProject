@@ -71,9 +71,9 @@ Ring Road, Indore
 {/* <img src="image/fb.png"/>
 <img src="image/wtsp.png"/> */}
 <div className="c">
-  <a href="" className="icon ">< FacebookIcon style={{ color: blue[500] }}/></a>
-  <a href=""  className="icon">< WhatsAppIcon style={{ color: green[500] }}/></a>
-  <a href=""  className="icon">< YouTubeIcon style={{ color: deepOrange[500] }}/></a>
+  <a href="" className="icon ">< FacebookIcon style={{ color: orange[500] }}/></a>
+  <a href=""  className="icon">< WhatsAppIcon style={{ color: orange[500] }}/></a>
+  <a href=""  className="icon">< YouTubeIcon style={{ color: orange[500] }}/></a>
 </div></div>
 </div>
 

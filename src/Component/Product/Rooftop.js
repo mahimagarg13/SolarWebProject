@@ -10,32 +10,32 @@ function rooftop() {
                 <div className="card text-center card-w" >
                     <img className="card-img-top" src={Img1} alt="Card image cap" />
                     <div className="card-body">
-                        <h5 className="card-title">rooftop 1</h5>
+                        <h5 className="card-title">ONGRID POWER PACK </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="#" className="btn mb-2  btn-outline-warning">VIEW DETAILS</a>
-                        <a href="#" className="btn  btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</a>
+                        <a href="#" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="#" className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</a>
                     </div>
                 </div>
 
                 <div className="card text-center card-w">
                     <img className="card-img-top" src={Img2} alt="Card image cap" />
                     <div className="card-body">
-                        <h5 className="card-title">Rooftop 2</h5>
+                        <h5 className="card-title">OFFGRID POWER PACK </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="#" className="btn mb-2 btn-outline-warning">VIEW DETAILS</a>
-                        <a href="#" className="btn  btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</a>
+                        <a href="#" className="btn mb-2 btn-outline-success">VIEW DETAILS</a>
+                        <a href="#" className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</a>
                     </div>
                 </div>
 
-                <div className="card text-center card-w">
+                {/* <div className="card text-center card-w">
                     <img className="card-img-top" src={Img3} alt="Card image cap" />
                     <div className="card-body">
-                        <h5 className="card-title">Rooftop 3</h5>
+                        <h5 className="card-title">Rooftop 3</h5> */}
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="#" className="btn mb-2  btn-outline-warning">VIEW DETAILS</a>
-                        <a href="#" className="btn  btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</a>
+                        {/* <a href="#" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="#" className="btn  btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">ENQUIRE NOW</a>
                     </div>
-
+</div> */}
 
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
@@ -71,7 +71,7 @@ function rooftop() {
                     </div>
                 </div>
             </div>
-        </div>
+        
     );
 }
 export default rooftop;

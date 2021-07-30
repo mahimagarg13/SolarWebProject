@@ -23,8 +23,10 @@ import WaterHeater from './Component/Product/WaterHeater';
 import Hybridsystem from './Component/Product/Hybridsystem';
 import WaterPurifier from './Component/Product/WaterPurifier';
 import Softnersystem from './Component/Product/Softnersystem';
-// import Pressurepump from './Component/Product/Pressurepump';
-// import Pressurepump from './Component/Product/Pressurepump';
+import NonPresssurePump from './Component/Product/NonPresssurePump';
+import SubmersiblePump from './Component/Product/SubmersiblePump';
+import Booster from './Component/Product/Booster';
+import GrundosPump from './Component/Product/GrundosPump';
 
 function App() {
   return (<>
@@ -44,7 +46,10 @@ function App() {
       <Route exact path= "/waterHeater" component={WaterHeater} />
       <Route exact path= "/waterpurifier" component={WaterPurifier} />
       <Route exact path= "/softnersystem" component={Softnersystem} />
-      {/* <Route exact path= "/pressurepump" component={Pressurepump} /> */}
+      <Route exact path= "/nonPresssurePump" component={NonPresssurePump} />
+      <Route exact path= "/submersiblePump" component={SubmersiblePump} />
+      <Route exact path= "/booster" component={Booster} />
+      <Route exact path= "/grundosPump" component={GrundosPump} />
 
       </Switch>
       {/* <Newsletter /> */}

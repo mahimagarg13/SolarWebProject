@@ -14,8 +14,8 @@ function  Watercooler() {
                     <div className="card-body">
                         <h5 className="card-title"> Water cooler 1</h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="#" className="btn mb-2  btn-outline-warning">VIEW DETAILS</a>
-                        <a href="#" className="btn  btn-outline-warning">ENQUIRE NOW</a>
+                        <a href="#" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="#" className="btn  btn-outline-success">ENQUIRE NOW</a>
                     </div>
                 </div>
 
@@ -23,8 +23,8 @@ function  Watercooler() {
                     <img className="card-img-top" src={Img21} alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title"> Water cooler 2</h5>
-                        <a href="#" className="btn mb-2  btn-outline-warning">VIEW DETAILS</a>
-                        <a href="#" className="btn  btn-outline-warning">ENQUIRE NOW</a>
+                        <a href="#" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="#" className="btn  btn-outline-success">ENQUIRE NOW</a>
                     </div>
                 </div>
 
@@ -33,8 +33,8 @@ function  Watercooler() {
                     <div className="card-body">
                         <h5 className="card-title"> Water cooler 3</h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                        <a href="#" className="btn mb-2  btn-outline-warning">VIEW DETAILS</a>
-                        <a href="#" className="btn  btn-outline-warning">ENQUIRE NOW</a>
+                        <a href="#" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
+                        <a href="#" className="btn  btn-outline-success">ENQUIRE NOW</a>
                     </div>
                 </div>
             </div>

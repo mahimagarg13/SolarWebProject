@@ -14,7 +14,7 @@ function Category() {
                             <div className="card card-div w m-b">
                                 <div className="card-body custom-width">
                                     <img className="h-w" src="/image/rooftop.png" />
-                                    <h6 className="color"> SOLAR ROOFTOP</h6>
+                                    <h6 className="color text-center"> SOLAR ROOFTOP</h6>
                                     {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
                                     {/* <Button variant="outlined" color="primary" >
                                             View Products
@@ -28,7 +28,7 @@ function Category() {
                             <div className="card card-div w m-b ">
                                 <div className="card-body custom-width">
                                     <img className="h-w" src="/image/light.png" />
-                                    <h6 className="color">
+                                    <h6 className="color  text-center">
                                         SOLAR STREET LIGHT</h6>
                                     {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
                                     {/* <Button variant="outlined" color="primary">
@@ -37,12 +37,38 @@ function Category() {
                                     <a href="/streetlight" type="button" class="btn btn-outline-success">View Products</a >
 
                                 </div> </div>   </div>
+                                <div className="col">
+                            <div className="card card-div w m-b ">
+                                <div className="card-body custom-width">
+                                    <img className="h-w" src="/image/light.png" />
+                                    <h6 className="color  text-center">
+                                        BOOSTER</h6>
+                                    {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
+                                    {/* <Button variant="outlined" color="primary">
+                                            View Products
+                                        </Button> */}
+                                    <a href="/booster" type="button" class="btn btn-outline-success">View Products</a >
+
+                                </div> </div>   </div>
+                                <div className="col">
+                            <div className="card card-div w m-b ">
+                                <div className="card-body custom-width">
+                                    <img className="h-w" src="/image/light.png" />
+                                    <h6 className=" text-center color">
+                                       LUBI PUMP</h6>
+                                    {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
+                                    {/* <Button variant="outlined" color="primary">
+                                            View Products
+                                        </Button> */}
+                                    <a href="#" type="button" class="btn btn-outline-success">View Products</a >
+
+                                </div> </div>   </div>
                         <div className="col">
                             <div className="card card-div w m-b">
 
                                 <div className="card-body custom-width">
                                     <img className="h-w" src="/image/hybrid.png" />
-                                    <h6 className="color">SOLAR HYBRID SYSTEM</h6>
+                                    <h6 className="color  text-center"> SOLARIZER HEAT PUMP/HYBRID SYSTEM</h6>
                                     {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
                                     {/* <Button variant="outlined" color="primary">
                                             View Products
@@ -55,7 +81,7 @@ function Category() {
                             <div className="card card-div w m-b">
                                 <div className="card-body custom-width">
                                     <img className="h-w" src="/image/wtrcooler.png" />
-                                    <h6 className="color">WATER COOLER</h6>
+                                    <h6 className="color  text-center">WATER COOLER WITH DIFFERENT STORAGE AS PER REQUIREMENT </h6>
                                     {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
                                     {/* <Button variant="outlined" color="primary">
                                             View Products
@@ -65,6 +91,21 @@ function Category() {
                                 </div>
                             </div>
                         </div>
+                        <div className="col">
+                            <div className="card card-div w m-b">
+                                <div className="card-body custom-width">
+                                    <img className="h-w" src="/image/wtrcooler.png" />
+                                    <h6 className="color  text-center">GRUNDFOS CM BOOSTER PUMP</h6>
+                                    {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
+                                    {/* <Button variant="outlined" color="primary">
+                                            View Products
+                                        </Button> */}
+                                    <a href="/grundosPump" type="button" class="btn btn-outline-success">View Products</a >
+
+                                </div>
+                            </div>
+                        </div>
+                        
                         {/* </div>
             </div>
             <div className="container m-top">
@@ -73,7 +114,7 @@ function Category() {
                             <div className="card card-div w m-b">
                                 <div className="card-body custom-width ">
                                     <img className="h-w" src="/image/heater.png" />
-                                    <h6 className="color">  SOLAR WATER HEATER</h6>
+                                    <h6 className="color text-center"> SOLAR HOT WATER SYSTEM</h6>
                                     {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
                                     {/* <Button variant="outlined" color="primary">
                                             View Products
@@ -87,7 +128,7 @@ function Category() {
                             <div className="card card-div w m-b">
                                 <div className="card-body custom-width">
                                     <img className="h-w" src="/image/purifier.png" />
-                                    <h6 className="color">WATER PURIFIER</h6>
+                                    <h6 className="color  text-center">WATER PURIFIER RO WITH ALKALINE TECHNOLOGY</h6>
                                     {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting . </p> */}
                                     {/* <Button variant="outlined" color="primary">
                                             View Products
@@ -102,7 +143,7 @@ function Category() {
                             <div className="card card-div w m-b">
                                 <div className="card-body custom-width">
                                     <img className="h-w" src="/image/soft.png" />
-                                    <h6 className="color">  WATER SOFTNER SYSTEM</h6>
+                                    <h6 className="color  text-center">  WATER SOFTNER SYSTEM</h6>
                                     {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
                                     {/* <Button variant="outlined" color="primary">
                                             View Products
@@ -116,12 +157,12 @@ function Category() {
                             <div className="card card-div w m-b">
                                 <div className="card-body custom-width">
                                     <img className="h-w" src="/image/pump.png" />
-                                    <h6 className="color">  PRESSURE PUMP</h6>
+                                    <h6 className="color  text-center">  SOLAR WATER HEATER FOR NON PRESSURIZE PUMP</h6>
                                     {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
                                     {/* <Button variant="outlined" color="primary">
                                             View Products
                                         </Button> */}
-                                    <a href="" type="button" class="btn btn-outline-success">View Products</a >
+                                    <a href="/NonPresssurePump" type="button" class="btn btn-outline-success">View Products</a >
 
                                 </div>
                             </div>
@@ -130,12 +171,12 @@ function Category() {
                             <div className="card card-div w m-b">
                                 <div className="card-body custom-width">
                                     <img className="h-w" src="/image/pump.png" />
-                                    <h6 className="color">  HEAT PUMP</h6>
+                                    <h6 className="color  text-center"> HORIZONTAL OPENWELL SUBMERSIBLE PUMP</h6>
                                     {/* <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> */}
                                     {/* <Button variant="outlined" color="primary">
                                             View Products
                                         </Button> */}
-                                    <a href="" type="button" class="btn btn-outline-success">View Products</a >
+                                    <a href="/submersiblePump" type="button" class="btn btn-outline-success">View Products</a >
 
                                 </div>
                             </div>

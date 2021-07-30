@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 
-const[model, setModel] = useState (false);
-const [tempimgSrc, setTempImgSrc]= useState(' ');
+// const[model, setModel] = useState (false);
+// const [tempimgSrc, setTempImgSrc]= useState(' ');
 
-const getImg 
+// const getImg
 
 export default function Galary(props) {
     console.log(props.state.images)
@@ -23,7 +23,7 @@ export default function Galary(props) {
             </div>
             <div className="gallery">
           {props.state.images?.map((image) => (
-              <img className="pics" onClick={() => getImg(image.image.src)} style={{width:"200px",height:"200px"}} src={image.src} alt="" />
+              <img className="pics" style={{width:"200px",height:"200px"}} src={image.src} alt="" />
           ))}
             </div>
 

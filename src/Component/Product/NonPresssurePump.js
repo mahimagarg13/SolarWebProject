@@ -1,7 +1,10 @@
-// import React  from "react";
-import Img10 from '../Img/img10.jpeg';
-import Img11 from '../Img/img11.jpeg';
-import Img12 from '../Img/img12.jpeg';
+// // import React  from "react";
+import Img10 from '../Img/100lpd.jpeg';
+import Img11 from '../Img/150lpd.jpeg';
+import Img12 from '../Img/200lpd.jpeg';
+import Img33 from '../Img/250lpd.jpeg';
+import Img34 from '../Img/300lpd.jpeg';
+import Img35 from '../Img/500lpd.jpeg';
 
 function nonpressurepump() {
     return (
@@ -38,7 +41,7 @@ function nonpressurepump() {
                     </div>
                 </div>
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img12} alt="Card image cap" />
+                    <img className="card-img-top" src={Img33} alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title">250 lpd </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
@@ -47,7 +50,7 @@ function nonpressurepump() {
                     </div>
                 </div>
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img12} alt="Card image cap" />
+                    <img className="card-img-top" src={Img34} alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title">300 lpd </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
@@ -56,7 +59,7 @@ function nonpressurepump() {
                     </div>
                 </div>
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img12} alt="Card image cap" />
+                    <img className="card-img-top" src={Img35} alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title">500 lpd </h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}

@@ -6,6 +6,29 @@
     box-sizing: border-box;
     /* font-family: 'Mulish', sans-serif; */
 }
+.cont-us{
+    text-align: left;
+    /* width:250px;
+     */
+     margin-top: 10px
+}
+.ten{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.m-bt{
+    margin-bottom:20px;
+}
+.mb{
+    margin-bottom: 25px;
+}
+.ico{
+    margin-right: 15px;
+}
+.inform{
+    padding-left: 90px;
+    padding-right: 40px;    
+}
 .form-check{
     margin-left: 17px;
     margin-right: 10px;
@@ -462,6 +485,10 @@ margin-left: 25%;
      /* float: left;  */
     margin-right: 2%;
 }
+.inform{
+    padding-left: 10px;
+    padding-right: 0px;    
+}
 .custom-width{
     width:290px;
     display:flex;
@@ -504,7 +531,7 @@ margin-left: 25%;
         margin-top: 20px;
         margin-left: 0px;
         text-align: left;
-        width: 263px;
+        width: 275px;
     }
 /* .container{
 
@@ -611,12 +638,26 @@ margin-left: 30px;
         align-items: center;
         flex-direction: column;
     }
+    /* .r{
+ text-align: left;
+    } */
+    .inform{
+        padding-left: 90px;
+        padding-right: 40px;    
+    }
     .resp{
         width: 100%;
         /* height: 10%; */
     }
     .fnt-s{
         font-size: 0.9rem;
+    }
+    .cont-us{
+        text-align: left;
+        width:250px;
+    }
+    .ten{
+        width: 40px;
     }
     .c{
         text-align: center;
@@ -642,7 +683,7 @@ margin-left: 30px;
     .dtails{
         margin-top: 30px;
         margin-left: 0px;
-        text-align: center;
+        /* text-align: center; */
         width: 390px;
         font-size: 0.9rem;
         margin-bottom: 50px;
@@ -847,7 +888,7 @@ display: flex;
     .dtails{
         margin-top: 30px;
         margin-left: 0px;
-        text-align: center;
+        /* text-align: center; */
         width: 345px;
         font-size: 0.9rem;
         margin-bottom: 50px;
@@ -893,11 +934,14 @@ display: flex;
     .dtails{
         margin-top: 30px;
         margin-left: 0px;
-        text-align: center;
         width: 288px;
         font-size: 0.9rem;
         margin-bottom: 50px;
         height: 420px;
+    }
+    .inform{
+        padding-left: 50px;
+        padding-right: 10px;    
     }
     .choose{
         /* height: 1590px; */

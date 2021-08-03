@@ -1,7 +1,7 @@
 import React from "react";
-import Img20 from '../Img/img1.jpeg';
-import Img21 from '../Img/img2.jpeg';
-import Img22 from '../Img/img3.jpeg';
+import Img24 from '../Img/watercooler.jpeg';
+import Img25 from '../Img/watercooler1.jpeg';
+import Img26 from '../Img/watercooler2.jpeg';
 function  Watercooler() {
     return(
 <div className="watercooler">
@@ -10,7 +10,7 @@ function  Watercooler() {
 </p>
 <div className="d-flex flex-wrap text-center justify-content-center">
                 <div className="card card-w" >
-                    <img className="card-img-top" src={Img20} alt="Card image cap" />
+                    <img className="card-img-top" src={Img24} alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title"> Water cooler 1</h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
@@ -20,7 +20,7 @@ function  Watercooler() {
                 </div>
 
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img21} alt="Card image cap" />
+                    <img className="card-img-top" src={Img25} alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title"> Water cooler 2</h5>
                         <a href="#" className="btn mb-2  btn-outline-success">VIEW DETAILS</a>
@@ -29,7 +29,7 @@ function  Watercooler() {
                 </div>
 
                 <div className="card card-w">
-                    <img className="card-img-top" src={Img22} alt="Card image cap" />
+                    <img className="card-img-top" src={Img26} alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title"> Water cooler 3</h5>
                         {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}

@@ -54,7 +54,7 @@ color:rgb(247, 243, 243);
       display: none;
     }
     .Navbar .rightside #hidden{
-      position: absolute;
+      position:absolute;
       z-index: 100;
       left: 0px;
       top: 80px;

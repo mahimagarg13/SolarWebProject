@@ -27,6 +27,7 @@ import NonPresssurePump from './Component/Product/NonPresssurePump';
 import SubmersiblePump from './Component/Product/SubmersiblePump';
 import Booster from './Component/Product/Booster';
 import GrundosPump from './Component/Product/GrundosPump';
+import LubiPump from './Component/Product/LubiPump';
 
 function App() {
   return (<>
@@ -50,6 +51,7 @@ function App() {
       <Route exact path= "/submersiblePump" component={SubmersiblePump} />
       <Route exact path= "/booster" component={Booster} />
       <Route exact path= "/grundosPump" component={GrundosPump} />
+      <Route exact path= "/lubiPump" component={LubiPump} />
 
       </Switch>
       {/* <Newsletter /> */}

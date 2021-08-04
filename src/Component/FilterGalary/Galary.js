@@ -1,32 +1,35 @@
-import React, { useState } from 'react'
+import { SRLWrapper } from "simple-react-lightbox"
 
-// const[model, setModel] = useState (false);
-// const [tempimgSrc, setTempImgSrc]= useState(' ');
 
-// const getImg
 
 export default function Galary(props) {
     console.log(props.state.images)
     return (
-        <>
+        <div className="mar-top">
        
 
 
 
         <p className="heading">Gallery</p>
             <div className="text-center " handleSetTag="{setTag}">
-                <button className="btn m-2 btn-outline-dark"  onClick={props.filterGalary} name="one" handleSetTag="{setTag}">ONE</button>
-                <button className="btn m-2 btn-outline-dark"  onClick={props.filterGalary} name="two" handleSetTag="{setTag}">TWO</button>
-                <button className="btn m-2 btn-outline-dark"  onClick={props.filterGalary} name="three" handleSetTag="{setTag}">THREE</button>
-                <button className="btn m-2 btn-outline-dark"  onClick={props.filterGalary} name="four" handleSetTag="{setTag}" >FOUR</button>
-                <button className="btn m-2 btn-outline-dark"  onClick={props.filterGalary}  name="all" handleSetTag="{setTag}">All</button>
+                <button className="btn m-2  btn-outline-success"  onClick={props.filterGalary} name="one" handleSetTag="{setTag}">Solar Heater</button>
+                <button className="btn m-2  btn-outline-success"  onClick={props.filterGalary} name="two" handleSetTag="{setTag}">Solarizer</button>
+                <button className="btn m-2  btn-outline-success"  onClick={props.filterGalary} name="three" handleSetTag="{setTag}">Rooftop</button>
+                <button className="btn m-2  btn-outline-success"  onClick={props.filterGalary} name="four" handleSetTag="{setTag}" >Solarizer spring</button>
+                <button className="btn m-2  btn-outline-success"  onClick={props.filterGalary}  name="all" handleSetTag="{setTag}">All</button>
             </div>
+                <SRLWrapper>
+
             <div className="gallery">
           {props.state.images?.map((image) => (
-              <img className="pics" style={{width:"200px",height:"200px"}} src={image.src} alt="" />
-          ))}
-            </div>
+                          <a href="{image.src}">
 
-         </>
+              <img className="pics" style={{width:"300px",height:"300px"}} src={image.src} alt="" />
+              </a>
+          ))}
+        
+            </div>
+            </SRLWrapper>
+         </div>
     )
 }

@@ -12,21 +12,21 @@ function Discover() {
 
                     <div className="card card-div m-b">
                         <div className="card-body">
-                            <img className="h-w2" src="/image/solaricon.png" />
+                            <img className="h-w2" src="/image/solaricon.png"  alt=""/>
                             <h6 className="clrd">   Solar Panel Services</h6>
                             <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
                         </div></div>
                     <div className="card card-div m-b">
                         <div className="card-body">
-                            <img className="h-w2" src="/image/wind.png" />
+                            <img className="h-w2" src="/image/wind.png"  alt="" />
                             <h6 className="clrd">Best Wind Energy</h6>
                             <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
 
                         </div></div>
                     <div className="card card-div m-b">
                         <div className="card-body">
-                            <img className="h-w2" src="/image/garan.png" />
+                            <img className="h-w2" src="/image/garan.png"  alt=""/>
                             <h6 className="clrd">Extended Gaurantee</h6>
                             <p className="pd">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
 
@@ -36,7 +36,7 @@ function Discover() {
                 </div>
             </div>
             <div className="flex-right h">
-                <img className="f-l m-l " src="/image/discover.gif" />
+                <img className="f-l m-l " src="/image/discover.gif"  alt="" />
             </div>
 
         </div>

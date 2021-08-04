@@ -6,7 +6,7 @@ function Ourservices() {
             </p>
             <div className="container ">
                 <div className="flex-1">
-                    <img className="hw" src="/image/services.gif" />
+                    <img className="hw" src="/image/services.gif"  alt="services" />
 
                 </div>
                 <div className="flex-2">

@@ -1,5 +1,6 @@
 import React, { Component} from 'react'
 import GallaryComponent from "./Galary"
+import SimpleReactLightbox from 'simple-react-lightbox';
 
 export default class index extends Component {
     constructor(props) {
@@ -74,10 +75,14 @@ export default class index extends Component {
 
     render() {
         return (
+            <SimpleReactLightbox>
+
             <GallaryComponent
                 state={this.state}
                 filterGalary={this.filterGalary}
             />
+                </SimpleReactLightbox>
+
         )
     }
 }

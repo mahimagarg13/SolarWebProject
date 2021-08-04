@@ -1,7 +1,4 @@
 import { SRLWrapper } from "simple-react-lightbox"
-
-
-
 export default function Galary(props) {
     console.log(props.state.images)
     return (
@@ -22,9 +19,9 @@ export default function Galary(props) {
 
             <div className="gallery">
           {props.state.images?.map((image) => (
-                          <a href="{image.src}">
+                          <a href={image.src}>
 
-              <img className="pics" style={{width:"300px",height:"300px"}} src={image.src} alt="" />
+              <img className="pics"  src={image.src} alt="" />
               </a>
           ))}
         

@@ -4,7 +4,7 @@ import Img25 from '../Img/watercooler1.jpeg';
 import Img26 from '../Img/watercooler2.jpeg';
 function  Watercooler() {
     return(
-<div className="watercooler">
+<div className="watercooler div">
 <p className="heading">
     Water Cooler
 </p>
